@@ -7,7 +7,7 @@ class Test extends Component {
   render() {
     return (
       <View style={apply('flex-1 justify-center items-center')}>
-        <Text>Test Screen</Text>
+        <Text style={apply('text-base mb-4')}>Test Screen</Text>
         <Button
           title={'Go Back'}
           onPress={() => this.props.navigation.goBack()}

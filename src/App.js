@@ -1,15 +1,19 @@
 import React, { Component } from 'react'
 import { View } from 'react-native'
+import { Provider } from 'mobx-react'
 
-import Root from './routes/index'
+import Routes from './routes/index'
 import { apply } from '../theme/styles'
+import stores from './store'
 
 class APP extends Component {
   render() {
     return (
-      <View style={apply('flex-1')}>
-        <Root />
-      </View>
+      <Provider {...stores}>
+        <View style={apply('flex-1')}>
+          <Routes />
+        </View>
+      </Provider>
     )
   }
 }
