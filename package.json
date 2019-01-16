@@ -10,7 +10,7 @@
     "dev-ios": "node '/Volumes/Work/My Projects/rn_boilerplate/node_modules/binstorm/dist/index.js' re-style && react-native run-ios"
   },
   "dependencies": {
-    "mobx": "^5.8.0",
+    "mobx": "^4.5.0",
     "mobx-react": "^5.2.8",
     "react": "16.7.0",
     "react-native": "0.57.8",
