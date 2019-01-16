@@ -9,15 +9,18 @@ React Native Boilerplate with following libraries.
 
 ## Usage
 
-#### 1. Install node modules
+#### 1. Clone repository
+` git clone git@github.com:binbytes/rn-boilerplate.git `
+
+#### 2. Install node modules
 ` npm install `
 
-#### 2. Update dependencies
+#### 3. Update dependencies
 ` npm run update `
 
 > Incase of it ask for replace file then press `n` (No).
 
-#### 3. Run project
+#### 4. Run project
 For Android
 
 ` npm run dev-android `
