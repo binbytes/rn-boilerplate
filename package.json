@@ -6,26 +6,26 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "update": "rm -rf android && rm -rf ios && node_modules/.bin/ncu -u && npm install && react-native upgrade && react-native link && node_modules/.bin/binstorm init",
-    "dev-android": "node '/Volumes/Work/My Projects/rn_boilerplate/node_modules/binstorm/dist/index.js' re-style && react-native run-android",
-    "dev-ios": "node '/Volumes/Work/My Projects/rn_boilerplate/node_modules/binstorm/dist/index.js' re-style && react-native run-ios"
+    "dev-android": "node '/Volumes/Work/Public Repo/rn-boilerplate/node_modules/binstorm/dist/index.js' re-style && react-native run-android",
+    "dev-ios": "node '/Volumes/Work/Public Repo/rn-boilerplate/node_modules/binstorm/dist/index.js' re-style && react-native run-ios"
   },
   "dependencies": {
     "mobx": "^4.5.0",
     "mobx-react": "^5.2.8",
-    "react": "16.7.0",
-    "react-native": "0.57.8",
+    "react": "16.8.6",
+    "react-native": "0.59.2",
     "react-native-gesture-handler": "^1.0.12",
     "react-native-vector-icons": "^6.1.0",
     "react-navigation": "^3.0.9"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.2.3",
-    "babel-jest": "23.6.0",
+    "babel-jest": "24.5.0",
     "binstorm": "^0.1.2",
-    "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.51.1",
-    "npm-check-updates": "^2.15.0",
-    "react-test-renderer": "16.7.0"
+    "jest": "24.5.0",
+    "metro-react-native-babel-preset": "0.53.1",
+    "npm-check-updates": "^3.1.3",
+    "react-test-renderer": "16.8.6"
   },
   "jest": {
     "preset": "react-native"
