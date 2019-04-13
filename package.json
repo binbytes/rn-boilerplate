@@ -6,8 +6,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "update": "rm -rf android && rm -rf ios && node_modules/.bin/ncu -u && npm install && react-native upgrade && react-native link && node_modules/.bin/binstorm init",
-    "dev-android": "node '/Volumes/Work/Public Repo/rn-boilerplate/node_modules/binstorm/dist/index.js' re-style && react-native run-android",
-    "dev-ios": "node '/Volumes/Work/Public Repo/rn-boilerplate/node_modules/binstorm/dist/index.js' re-style && react-native run-ios"
+    "dev-android": "node node_modules/binstorm/dist/index.js re-style && react-native run-android",
+    "dev-ios": "node node_modules/binstorm/dist/index.js re-style && react-native run-ios",
+    "restyle": "node node_modules/binstorm/dist/index.js re-style"
   },
   "dependencies": {
     "mobx": "^4.5.0",
