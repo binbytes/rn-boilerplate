@@ -28,3 +28,7 @@ For Android
 For iOS
 
 ` npm run dev-ios `
+
+
+## Gitlab CI/CD
+Change filename `.gitlab-ci.example` to `.gitlab-ci.yml`.
